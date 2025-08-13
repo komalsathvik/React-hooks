@@ -19,7 +19,7 @@ function ReducerTest() {
       <h1>UseReducer</h1>
       <h2>Count-{ct}</h2>
       <div>
-        <buttonl
+        <button
           onClick={() => {
             dispatch("increment");
           }}
