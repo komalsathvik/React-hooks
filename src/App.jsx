@@ -5,6 +5,7 @@ import "./App.css";
 import ThemeProvider from "./ThemeProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TestContext from "./TestContext";
+import ReducerTest from "./ReducerTest";
 
 export const themeVal = React.createContext();
 
@@ -24,6 +25,7 @@ function App() {
               }
             />
             <Route path="/test" element={<TestContext />} />
+            <Route path="/counter" element={<ReducerTest />} />
           </Routes>
         </BrowserRouter>
       </themeVal.Provider>
